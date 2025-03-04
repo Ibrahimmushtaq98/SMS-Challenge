@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS-Gatekeeper", "SMS-Gatekeeper.csproj", "{5EFD8EA8-2BAF-4E0B-B030-BEB127853D08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS-Gatekeeper", "SMS-Gatekeeper\SMS-Gatekeeper.csproj", "{5EFD8EA8-2BAF-4E0B-B030-BEB127853D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS-Gatekeeper-Core", "..\SMS-Gatekeeper-Core\SMS-Gatekeeper-Core.csproj", "{43B14E04-77C8-4CE7-B5F1-71B751C983ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS-Gatekeeper-Core", "SMS-Gatekeeper-Core\SMS-Gatekeeper-Core.csproj", "{43B14E04-77C8-4CE7-B5F1-71B751C983ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS-Gatekeeper-Test", "SMS-Gatekeeper-Test\SMS-Gatekeeper-Test.csproj", "{FA25D400-CFAF-4750-A10B-E82F86338714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{43B14E04-77C8-4CE7-B5F1-71B751C983ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43B14E04-77C8-4CE7-B5F1-71B751C983ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43B14E04-77C8-4CE7-B5F1-71B751C983ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA25D400-CFAF-4750-A10B-E82F86338714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA25D400-CFAF-4750-A10B-E82F86338714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA25D400-CFAF-4750-A10B-E82F86338714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA25D400-CFAF-4750-A10B-E82F86338714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
