@@ -102,6 +102,9 @@ namespace SMS_Gatekeeper_Core.Services
             }
         }
 
+        /// <summary>
+        /// Cleans up any inactive number saved in memory.
+        /// </summary>
         private async Task CleanupInactiveNumbersAsync()
         {
             while (true)
